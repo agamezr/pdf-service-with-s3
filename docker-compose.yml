@@ -1,0 +1,10 @@
+services:
+  pdf-service:
+    build: .
+    container_name: pdf-service
+    ports:
+      - "${PORT}:3000"
+    volumes:
+      - .:/usr/src/app
+    env_file:
+      - .env

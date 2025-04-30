@@ -1,0 +1,24 @@
+{
+  "name": "pdf-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src --exec node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.799.0",
+    "@faker-js/faker": "^9.7.0",
+    "express": "^5.1.0",
+    "pdfkit": "^0.17.0",
+    "puppeteer": "^24.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
