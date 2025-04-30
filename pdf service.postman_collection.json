@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "0bc295b7-85a3-4a32-90ef-9d4f23a77d51",
+		"name": "pdf service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2693595"
+	},
+	"item": [
+		{
+			"name": "pdf_service",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/pdf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"pdf"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
